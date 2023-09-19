@@ -1,17 +1,17 @@
 ﻿{
-  "operator": "*",
-  "operands": [
+  "Operator": "*",
+  "Operands": [
     {
-      "value": 4
+      "Value": 4
     },
     {
-      "operator": "-",
-      "operands": [
+      "Operator": "-",
+      "Operands": [
         {
-          "value": 3
+          "Value": 3
         },
         {
-          "value": 2
+          "Value": 2
         }
       ]
     }

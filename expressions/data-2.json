@@ -1,45 +1,45 @@
 ﻿{
-  "operator": "*",
-  "operands": [
+  "Operator": "*",
+  "Operands": [
     {
-      "value": 3
+      "Value": 3
     },
     {
-      "operator": "-",
-      "operands": [
+      "Operator": "-",
+      "Operands": [
         {
-          "value": 23
+          "Value": 23
         },
         {
-          "operator": "/",
-          "operands": [
+          "Operator": "/",
+          "Operands": [
             {
-              "value": 6
+              "Value": 6
             },
             {
-              "operator": "+",
-              "operands": [
+              "Operator": "+",
+              "Operands": [
                 {
-                  "operator": "/",
-                  "operands": [
+                  "Operator": "/",
+                  "Operands": [
                     {
-                      "value": 2
+                      "Value": 2
                     },
                     {
-                      "operator": "+",
-                      "operands": [
+                      "Operator": "+",
+                      "Operands": [
                         {
-                          "value": 1
+                          "Value": 1
                         },
                         {
-                          "value": 1
+                          "Value": 1
                         }
                       ]
                     }
                   ]
                 },
                 {
-                  "value": 1
+                  "Value": 1
                 }
               ]
             }
