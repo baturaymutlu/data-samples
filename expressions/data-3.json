@@ -1,0 +1,21 @@
+﻿{
+  "operator": "*",
+  "operands": [
+    {
+      "value": 4
+    },
+    {
+      "operator": "-",
+      "operands": [
+        {
+          "value": 3
+        },
+        {
+          "value": 2
+        }
+      ]
+    }
+  ]
+}
+
+// 4 * (3 - 2)

@@ -1,0 +1,51 @@
+﻿{
+  "operator": "*",
+  "operands": [
+    {
+      "value": 2
+    },
+    {
+      "operator": "+",
+      "operands": [
+        {
+          "value": 1
+        },
+        {
+          "value": 2
+        }
+      ]
+    },
+    {
+      "operator": "/",
+      "operands": [
+        {
+          "value": 4
+        },
+        {
+          "value": 2
+        }
+      ]
+    },
+    {
+      "operator": "-",
+      "operands": [
+        {
+          "operator": "/",
+          "operands": [
+            {
+              "value": 4
+            },
+            {
+              "value": 2
+            }
+          ]
+        },
+        {
+          "value": 2
+        }
+      ]
+    }
+  ]
+}
+
+// 2 * (1 + 2) + 4/2 + (4/2 - 2) = 8

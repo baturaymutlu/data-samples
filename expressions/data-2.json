@@ -1,0 +1,52 @@
+﻿{
+  "operator": "*",
+  "operands": [
+    {
+      "value": 3
+    },
+    {
+      "operator": "-",
+      "operands": [
+        {
+          "value": 23
+        },
+        {
+          "operator": "/",
+          "operands": [
+            {
+              "value": 6
+            },
+            {
+              "operator": "+",
+              "operands": [
+                {
+                  "operator": "/",
+                  "operands": [
+                    {
+                      "value": 2
+                    },
+                    {
+                      "operator": "+",
+                      "operands": [
+                        {
+                          "value": 1
+                        },
+                        {
+                          "value": 1
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+// 3 * (23 - (6 / (2 / (1 + 1) + 1))) = 60
